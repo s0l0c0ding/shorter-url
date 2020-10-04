@@ -3,6 +3,7 @@
 @id= 5f770e79c825ff5085b8a897
 #################################
 GET {{baseUrl}}/url/{{shortUrl}} HTTP/1.1
+Accept: application/json
 #################################
 POST {{baseUrl}}/url HTTP/1.1
 Content-Type: application/json
